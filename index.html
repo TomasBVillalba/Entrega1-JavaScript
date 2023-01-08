@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signos del zodiaco</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+<form name="formulario">
+    <fieldset>
+        <legend>A continuacion vas a descubrir de que signo del zodiaco sos !!!</legend>
+        <label>Dia en que naciste</label>
+        <input type="number" name="dia" max="31" min="1" step="" required="">
+
+        <label>Mes en que naciste</label>
+        <input type="number" name="mes" max="12" min="1" required="">
+
+        <input value="Descubrir" type="button" onclick="horoscopo();">
+
+        <img id="fotos" src="fotos/sigosdelzodiaco.jpg" alt="todos los signos del horoscopo">
+    </fieldset>
+</form>
+</body>
+</html>
