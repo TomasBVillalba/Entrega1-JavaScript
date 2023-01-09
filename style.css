@@ -2,12 +2,33 @@
     Margin: 5px;
     padding: 5px;
     box-sizing: border-box; } */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap'); 
 
-legend {
-    font-size: 43px;
-}
+
 
 label {
     font-size: 18px;
+    pad: 20px;
+    color: #ffffff;
+}
+
+input {
+    border-radius: 30px;
+    font-family: 'Fugaz One', cursive;
+    color: #000000;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    color:#ffffff;
+}
+
+body {
+    background-image: url(fotos/sistemasolar.jpg);
+}
+
+.button {
+    color: #000000;
 }
 
